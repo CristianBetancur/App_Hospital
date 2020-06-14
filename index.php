@@ -1,3 +1,2 @@
-<?php include('header.php'); ?>
-<h1>Christopher Betancur</h1>
-<?php include('footer.php'); ?>
+<?php include('./components/header.php'); ?>
+<?php include('./components/footer.php'); ?>

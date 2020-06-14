@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 1500px;
+}
+header {
+    height: 80px;
+    margin: auto;
+    width: 95%;
+}
+nav {
+    height: inherit;
+    margin: auto 0;
+}
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    height: inherit;
+    margin: auto 0; 
+    justify-content: center;
+}
+.item_nav {
+    margin: auto 0;
+}
