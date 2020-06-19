@@ -1,4 +1,7 @@
 <?php 
+
 include('constantes.php');
-echo URL_FINAL; 
+include('components/header.php'); 
+
+
 ?>
