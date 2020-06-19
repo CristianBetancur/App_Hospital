@@ -1,3 +1,6 @@
+<?php require 'constantes.php'; ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +16,9 @@
     <header>
         <nav>
             <ul class="nav flex">
+                <li class="nav-item item_nav">
+                    <a class="nav-link active" href="<?php echo URL_FINAL; ?>index.php">Home</a>
+                </li>
                 <li class="nav-item item_nav">
                     <a class="nav-link active" href="#">Administrador</a>
                 </li>
@@ -30,7 +36,7 @@
                     <a class="nav-link" href="#">Reportes especiales</a>
                 </li>
                 <li class="nav-item item_nav">
-                    <a class="nav-link" href="#">Operaciones matemáticas</a>
+                    <a class="nav-link" href="<?php echo URL_FINAL; ?>operaciones_Matematicas.php">Operaciones matemáticas</a>
                 </li>
             </ul>
         </nav>
