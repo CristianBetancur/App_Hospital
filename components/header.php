@@ -15,22 +15,21 @@
 <body>
     <header>
         <nav>
-            <ul class="nav flex">
+            <ul class="nav nav-tabs flex">
                 <li class="nav-item item_nav">
                     <a class="nav-link active" href="<?php echo URL_FINAL; ?>index.php">Home</a>
                 </li>
                 <li class="nav-item item_nav">
-                    <a class="nav-link active" href="#">Administrador</a>
+                    <a class="nav-link " href="#">Administrador</a>
                 </li>
                 <li class="nav-item item_nav">
-                    <a class="nav-link active" href="#">Ingreso de hojas de vida</a>
+                    <a class="nav-link" href="#">Ingreso de hojas de vida</a>
                 </li>
                 <li class="nav-item item_nav">
-                    <a class="nav-link active" href="#">consulta de hojas de vida</a>
+                    <a class="nav-link" href="#">consulta de hojas de vida</a>
                 </li>
-                
                 <li class="nav-item item_nav">
-                    <a class="nav-link active" href="#">actualización de hojas de vida</a>
+                    <a class="nav-link" href="#">actualización de hojas de vida</a>
                 </li>
                 <li class="nav-item item_nav">
                     <a class="nav-link" href="#">Reportes especiales</a>
@@ -38,6 +37,7 @@
                 <li class="nav-item item_nav">
                     <a class="nav-link" href="<?php echo URL_FINAL; ?>operaciones_Matematicas.php">Operaciones matemáticas</a>
                 </li>
+  
             </ul>
         </nav>
     </header>

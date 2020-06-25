@@ -4,15 +4,17 @@
 }
 body {
     max-width: 1500px;
+    background: rgb(242,242,242);
 }
+/*Header*/
 header {
     height: 80px;
     margin: auto;
     width: 95%;
 }
 nav {
+    background: rgb(172,191,199);
     height: inherit;
-    margin: auto 0;
 }
 .flex {
     display: flex;
@@ -23,4 +25,17 @@ nav {
 }
 .item_nav {
     margin: auto 0;
+}
+
+/*Operaciones Matematicas*/
+.mathematical_operations{
+    background: rgb(138,164,179);
+}
+
+.form_operations {
+    margin: 20px auto;
+    width: 95%;
+}
+.operations_exercise1{
+    width: 95%;
 }
